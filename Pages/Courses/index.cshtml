@@ -1,0 +1,61 @@
+@page
+@{
+    ViewData["Title"] = "Cursos Tech";
+}
+<link rel="stylesheet" href="~/css/course-theme.css" asp-append-version="true" />
+
+<section class="course-hero">
+    <div class="container">
+        <h1 class="hero-title">Gerenciador de planos — Curso Tech</h1>
+        <p class="hero-sub">Aprenda a criar e gerenciar planos para estudantes com práticas modernas de desenvolvimento.</p>
+        <p><a class="btn btn-primary btn-lg" href="#curriculum">Começar agora</a></p>
+    </div>
+</section>
+
+<section class="features container">
+    <div class="row">
+        <div class="col-md-4 feature">
+            <h3>Hands-on</h3>
+            <p>Projetos práticos com .NET, EF Core e Razor Pages.</p>
+        </div>
+        <div class="col-md-4 feature">
+            <h3>Mentoria</h3>
+            <p>Instrutores experientes e sessões ao vivo.</p>
+        </div>
+        <div class="col-md-4 feature">
+            <h3>Certificado</h3>
+            <p>Certificação ao final do curso.</p>
+        </div>
+    </div>
+</section>
+
+<section id="curriculum" class="curriculum container">
+    <h2>Currículo</h2>
+    <ul>
+        <li>Módulo 1 — Fundamentos de C# e .NET</li>
+        <li>Módulo 2 — ASP.NET Core e Razor Pages</li>
+        <li>Módulo 3 — Entity Framework Core e Migrations</li>
+        <li>Módulo 4 — Deploy e boas práticas</li>
+    </ul>
+</section>
+
+<section class="instructors container">
+    <h2>Instrutores</h2>
+    <div class="row">
+        <div class="col-md-6 instructor">
+            <div class="avatar">JD</div>
+            <h4>João Dev</h4>
+            <p>Full-stack .NET</p>
+        </div>
+        <div class="col-md-6 instructor">
+            <div class="avatar">MS</div>
+            <h4>Maria Sys</h4>
+            <p>DevOps e arquitetura</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta container text-center">
+    <h2>Pronto para começar?</h2>
+    <a class="btn btn-success btn-lg" href="/Students/Index">Inscrever estudante</a>
+</section>

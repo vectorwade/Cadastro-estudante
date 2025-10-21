@@ -1,0 +1,26 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.vs
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.DotSettings.user
+
+# Mac
+.DS_Store
+
+# Packages
+/packages/
